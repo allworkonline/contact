@@ -126,10 +126,14 @@ html,body{
     text-decoration: crimson;
     background-color: rgb(184, 255, 255);
     size: 10hw;
+    box-sizing: border-box;
+    bottom: 10%;
 
     
 
 }
+
+
 
 .class3{
     height: 10%;
