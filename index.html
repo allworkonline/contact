@@ -81,16 +81,25 @@ input[type=submit]:hover {
 <div class="container">
   <form action="/action_page.php">
     <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
     <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
     <label for="lname">Mobile No.</label>
     <input type="text" id="lname" name="lastname" placeholder="0000000000..">
+    <label for="lname">Subject.</label>
+    <select id="subject" name="Subject">
+      <option value="pm KISAN">SELECT</option>
+      <option value="pm KISAN">PM KISAN LAND SEEDING</option>
+      <option value="pm KISAN">PAYMENT</option>
+      <option value="pm KISAN">OTHER</option>
+    </select>
+    
 
     <label for="country">State</label>
     <select id="country" name="country">
-      <option value="australia">UTTAR PRADESH</option>
+      <option value="SELECT">SELECTED</option>
+      <option value="australia">GUJRAT</option>
       <option value="canada">BIHAR</option>
       <option value="usa">ODISA</option>
       <option value="usa">PUNJAB</option>
@@ -98,7 +107,7 @@ input[type=submit]:hover {
       <option value="usa">TELNGANA</option>
       <option value="usa">MAHARASHTRA</option>
       <option value="usa">MIJORAM </option>
-      <option value="usa">GUJRAT</option>
+      <option value="usa">MADHYAPRADESH</option>
       <option value="usa">RAJSTHAN</option>
       <option value="usa">NAGALAND</option>
       <option value="usa">KARNATAKA</option>
@@ -120,9 +129,8 @@ input[type=submit]:hover {
       <option value="usa">ANDHRA PRADESH</option>
       <option value="usa">UTTARAKHAND</option>
       <option value="usa">JAMMU KASHMIR</option>
-      <option value="usa">MADHYAPRADESH</option>
-    </select>
-
+      <option value="usa">UTTAR PRADESH</option>
+      </select>
     <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
@@ -140,3 +148,6 @@ input[type=submit]:hover {
     </div>
 </body>
 </html>
+    
+
+    
